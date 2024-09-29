@@ -36,7 +36,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     public DbSet<Internal> Internals { get; set; }
     public DbSet<External> Externals { get; set; }
-    
+
     public DbSet<Refinance> Refinances { get; set; }
 
     public DbSet<BookingDocument> BookingDocuments { get; set; }
